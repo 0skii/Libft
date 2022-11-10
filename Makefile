@@ -6,7 +6,7 @@
 #    By: ozerbib- <ozerbib-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/02 17:44:42 by ozerbib-          #+#    #+#              #
-#    Updated: 2022/11/09 03:22:42 by ozerbib-         ###   ########.fr        #
+#    Updated: 2022/11/10 00:40:46 by ozerbib-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -33,6 +33,9 @@ SRCS = ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c ft_isprint.c\
 	ft_putendl_fd.c \
 	ft_putnbr_fd.c \
 	ft_strtrim.c \
+	ft_split.c \
+	ft_strmapi.c \
+	ft_striteri.c \
 	ft_strnstr.c
 
 OBJS = $(SRCS:.c=.o)
