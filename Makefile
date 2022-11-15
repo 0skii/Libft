@@ -6,7 +6,7 @@
 #    By: ozerbib- <ozerbib-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/02 17:44:42 by ozerbib-          #+#    #+#              #
-#    Updated: 2022/11/14 21:44:43 by ozerbib-         ###   ########.fr        #
+#    Updated: 2022/11/15 11:15:06 by ozerbib-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -41,7 +41,8 @@ B_SRCS = ft_lstnew.c \
 			ft_lstadd_back.c \
 			ft_lstdelone.c \
 			ft_lstclear.c \
-			ft_lstiter.c
+			ft_lstiter.c \
+			ft_lstmap.c
 
 OBJS = $(SRCS:.c=.o)
 B_OBJS = $(B_SRCS:.c=.o)
